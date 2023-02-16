@@ -1,0 +1,76 @@
+/* Fundamentals */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Main */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+body>div {
+  flex-basis: 400px;
+  padding: 0px 400px;
+}
+
+/* Section 1 */
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  flex: 0 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.banner {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.banner>div {
+  max-width: 50%;
+}
+
+.banner>.right {
+  width: 100%;
+  height: 60%;
+  background-color: gray;
+}
+
+/* Section 2 */
+/* Section 3 */
+/* Section 4 */
+/* Footer */
+
+.footer {
+  flex: 0 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Helpers */
+
+body>div {
+  border: red solid 2px;
+}
