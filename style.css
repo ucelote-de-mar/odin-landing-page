@@ -21,6 +21,10 @@ body > div {
   padding: 0px 400px;
 }
 
+button {
+  padding: 5px 30px;
+}
+
 /* Section 1 */
 
 .section-1 {
@@ -110,6 +114,19 @@ blockquote > .author {
 }
 
 /* Section 4 */
+
+.section-4 {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-color: lightblue;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
 /* Footer */
 
 .footer {
